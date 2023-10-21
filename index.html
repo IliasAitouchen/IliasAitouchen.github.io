@@ -1,33 +1,322 @@
-<!doctype html>
-<html dir="ltr" lang="en" chrome-refresh-2023>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>New Tab</title>
-    <style>
-        body {
-            background: #3C3C3C;
-            margin: 0;
-        }
-
-        #backgroundImage {
-            color: rgb(255, 255, 255);
-        }
-
-        #center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>ILIAS AITOUCHEN </title>
 </head>
 
 <body>
-    <div id="center">
-        <h1 id="backgroundImage">
-            ilias aitouchen
-        </h1>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assite/culactiveblack.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ilias aitouchen</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container m-5">
+        <div class="row">
+            <div class="col">
+                <div class="personalIMg">
+                    <img src="./assite/mainImg.png" id="mainImg" class="rounded-circle shadow-lg border-0 floating2"
+                        height="400px" width="400px" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <h1 class="display-1 ">ILIAS AITOUCHEN</h1>
+            </div>
+        </div>
+
     </div>
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="typing">About Me</h2>
+                    <p id="text">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="launges" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="typing">frameworks</h1>
+                    <ul class="list-inline ">
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <h4>
+                                    <i class="fa-brands fa-react "></i>
+                                    react
+                                </h4>
+                                <h4 class="p-2 d-flex align-items-center">
+                                    90%
+                                </h4>
+                                <div id="border" class="d-flex align-items-center">
+                                    <div id="borderRange" style="width: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <h4>
+                                    <i class="fa-brands fa-laravel "></i>
+                                    laravel
+                                </h4>
+                                <h4 class="p-2 d-flex align-items-center">
+                                    90%
+                                </h4>
+                                <div id="border" class="d-flex align-items-center">
+                                    <div id="borderRange" style="width: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 class="typing">forntEnd</h1>
+                    <ul class="list-inline ">
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <h4>
+                                    <i class="fa-brands fa-js "></i>
+                                    javaScripte
+                                </h4>
+                                <h4 class="p-2 d-flex align-items-center">
+                                    90%
+                                </h4>
+                                <div id="border" class="d-flex align-items-center">
+                                    <div id="borderRange" style="width: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <h4>
+                                    <i class="fa-brands fa-html5 "></i>
+                                    html
+                                </h4>
+                                <h4 class="p-2 d-flex align-items-center">
+                                    90%
+                                </h4>
+                                <div id="border" class="d-flex align-items-center">
+                                    <div id="borderRange" style="width: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <h4>
+                                    <i class="fa-brands fa-css3-alt "></i>
+                                    css
+                                </h4>
+                                <h4 class="p-2 d-flex align-items-center">
+                                    90%
+                                </h4>
+                                <div id="border" class="d-flex align-items-center">
+                                    <div id="borderRange" style="width: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 class="typing">backend</h1>
+                    <ul class="list-inline ">
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <h4>
+                                    <i class="fa-brands fa-php "></i>
+                                    php
+                                </h4>
+                                <h4 class="p-2">
+                                    90%
+                                </h4>
+                                <div id="border">
+                                    <div id="borderRange" style="width: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 class="typing">athers</h1>
+                    <ul class="list-inline ">
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <h4>
+                                    <i class="fa-brands fa-python "></i>
+                                    python
+                                </h4>
+                                <h4 class="p-2 d-flex align-items-center">
+                                    90%
+                                </h4>
+                                <div id="border" class="d-flex align-items-center">
+                                    <div id="borderRange" style="width: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-bg-dark mb-3 rounded-5 border-0 shadow-lg">
+                        <img src="./assite/culactiveblack.png" alt="Project 1"
+                            class="card-img-top bg-light rounded-5 floating">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of project 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-bg-dark mb-3 rounded-5 border-0 shadow-lg">
+                        <img src="./assite/culactiveblack.png" alt="Project 2"
+                            class="card-img-top bg-light rounded-5 floating ">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of project 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-bg-dark mb-3 rounded-5 border-0 shadow-lg">
+                        <img src="./assite/culactiveblack.png" alt="Project 3"
+                            class="card-img-top bg-light rounded-5 floating">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description of project 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer class="bg-dark text-white py-4 rounded-top-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Ilias Aitouchen</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <ul class="list-inline social-icons">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-white">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/yourusername" target="_blank" class="text-white">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <!-- Add more social media links as needed -->
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- A root element for TypeIt to target. -->
+    <script>
+
+        var string = `
+        Welcome to my developer portfolio. I'm Ilias Aitouchen, a passionate full-stack developer
+        with a strong background in web development. I'm committed to delivering efficient and
+        maintainable code, and I thrive on problem-solving. My goal is to create innovative
+        solutions
+        and make ideas come to life.
+                       `; /* type your text here */
+        var array = string.split("");
+        var timer;
+
+        function frameLooper() {
+            if (array.length > 0) {
+                document.getElementById("text").innerHTML += array.shift();
+            } else {
+                clearTimeout(timer);
+            }
+            loopTimer = setTimeout('frameLooper()', 50); /* change 70 for speed */
+
+        }
+        frameLooper();
+    </script>
+
 </body>
+
 
 </html>
