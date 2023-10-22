@@ -113,6 +113,7 @@ button.navbar-toggler.btn {
 
 .personalIMg {
     position: relative;
+    overflow: hidden;
 }
 
 .personalIMg #cloude {
