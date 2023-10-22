@@ -77,7 +77,7 @@ body {
     /* Hide overflowing text */
 
     /* Create a typing cursor */
-    white-space: nowrap;
+    
     /* Make text appear on one line */
     animation: typing 1s steps(30, end) 1;
 }
