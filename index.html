@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assite/favicon.png" type="image/x-icon">
     <meta name="description"
-        content=" 
-           Welcome to my development portfolio! I'm Ilias Aitouchen, a passionate developer who believes in the power of code to bring creative solutions to life. My journey in the world of programming began with a fascination for technology and a desire to craft meaningful experiences.">
+        content="Welcome to my development portfolio! I'm Ilias Aitouchen, a passionate developer who believes in the power of code to bring creative solutions to life. My journey in the world of programming began with a fascination for technology and a desire to craft meaningful experiences.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -74,10 +73,14 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <button data-bs-toggle="modal" data-bs-target="#contact" data-bs-whatever="@mdo"
+                            class="nav-link">Contact</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="downloadButton" class="nav-link">CV</button>
                     </li>
                 </ul>
             </div>
@@ -100,7 +103,7 @@
             </div>
             <div class="col-lg-6">
                 <h1 class="display-1 ">ILIAS AITOUCHEN</h1>
-                <h4 id="title"></h4>
+                <h6 id="title"></h6>
             </div>
         </div>
     </div>
@@ -108,9 +111,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h2 class="typing">About Me</h2>
-                    <p id="text">
-                    </p>
+                    <h4 class="typing">About Me</h2>
+                        <p id="text">
+                        </p>
                 </div>
             </div>
         </div>
@@ -119,82 +122,83 @@
         <div class="container ">
             <div class="row">
                 <div class="col-lg-6 px-5">
-                    <h2 class="typing">
+                    <h4 class="typing">
                         <i class="fa-solid fa-bug-slash"></i>
                         A Passion for Problem-Solving
-                    </h2>
-                    <p>
-                        From the early days of my development journey, I've been captivated by the art of
-                        problem-solving. Whether it's troubleshooting a tricky bug or architecting an elegant solution,
-                        I thrive on overcoming challenges. My commitment to delivering high-quality, efficient, and
-                        maintainable code is unwavering.
-                    </p>
+                        </h2>
+                        <p>
+                            From the early days of my development journey, I've been captivated by the art of
+                            problem-solving. Whether it's troubleshooting a tricky bug or architecting an elegant
+                            solution,
+                            I thrive on overcoming challenges. My commitment to delivering high-quality, efficient, and
+                            maintainable code is unwavering.
+                        </p>
                 </div>
                 <div class="col-lg-6 px-5">
-                    <h2 class="typing">
+                    <h4 class="typing">
                         <i class="fa-solid fa-gears"></i>
                         Full-Stack Versatility
                         <i class="fa-solid fa-code"></i>
-                    </h2>
-                    <p>
-                        As a developer, I've explored both ends of the spectrum, mastering the frontend and backend.
-                        On
-                        the frontend, I craft user interfaces that are not just functional but beautiful and
-                        intuitive.
-                        JavaScript, React, HTML, and CSS are my creative tools. On the backend, I engineer robust
-                        systems using Node.js, Python, and databases to ensure data is secure and accessible.
-                    </p>
+                        </h2>
+                        <p>
+                            As a developer, I've explored both ends of the spectrum, mastering the frontend and backend.
+                            On
+                            the frontend, I craft user interfaces that are not just functional but beautiful and
+                            intuitive.
+                            JavaScript, React, HTML, and CSS are my creative tools. On the backend, I engineer robust
+                            systems using Node.js, Python, and databases to ensure data is secure and accessible.
+                        </p>
                 </div>
                 <div class="col-lg-6 px-5">
-                    <h2 class="typing">
+                    <h4 class="typing">
                         <i class="fa-solid fa-graduation-cap"></i>
                         Learning and Adaptation
-                    </h2>
-                    <p>
-                        The tech landscape evolves rapidly, and I believe in continuous learning. My quest for
-                        knowledge
-                        and staying up-to-date with industry trends is relentless. It's essential to embrace new
-                        technologies and methodologies to remain at the forefront of the ever-changing tech
-                        world.
-                    </p>
+                        </h2>
+                        <p>
+                            The tech landscape evolves rapidly, and I believe in continuous learning. My quest for
+                            knowledge
+                            and staying up-to-date with industry trends is relentless. It's essential to embrace new
+                            technologies and methodologies to remain at the forefront of the ever-changing tech
+                            world.
+                        </p>
                 </div>
                 <div class="col-lg-6 px-5">
-                    <h2 class="typing">
+                    <h4 class="typing">
                         <i class="fa-solid fa-satellite-dish"></i>
                         Collaboration and Communication
-                    </h2>
-                    <p>
-                        I'm not just a code enthusiast; I'm also a team player. Collaboration is at the
-                        heart of great
-                        software development. I value open communication, sharing knowledge, and working
-                        effectively in
-                        cross-functional teams. It's through these interactions that we build extraordinary
-                        products.
-                    </p>
+                        </h2>
+                        <p>
+                            I'm not just a code enthusiast; I'm also a team player. Collaboration is at the
+                            heart of great
+                            software development. I value open communication, sharing knowledge, and working
+                            effectively in
+                            cross-functional teams. It's through these interactions that we build extraordinary
+                            products.
+                        </p>
                 </div>
                 <div class="col-lg-6 px-5">
-                    <h2 class="typing">
+                    <h4 class="typing">
                         <i class="fa-solid fa-lightbulb"></i>
                         Bringing Ideas to Life
-                    </h2>
-                    <p>
-                        My portfolio showcases projects where I've turned ideas into reality. Whether
-                        it's a
-                        responsive
-                        personal website, a task manager application, an online bookstore, or a code
-                        snippet
-                        organizer,
-                        each project is a testament to my dedication and creativity.
+                        </h2>
+                        <p>
+                            My portfolio showcases projects where I've turned ideas into reality. Whether
+                            it's a
+                            responsive
+                            personal website, a task manager application, an online bookstore, or a code
+                            snippet
+                            organizer,
+                            each project is a testament to my dedication and creativity.
 
-                        Let's work together to create innovative solutions and make ideas come to life.
-                        If
-                        you're
-                        looking for a passionate developer to join your team or collaborate on a
-                        project,
-                        please feel
-                        free to reach out. I'm excited to discuss how I can contribute to your next
-                        endeavor.
-                    </p>
+                            Let's work together to create innovative solutions and make ideas come to life.
+                            If
+                            you're
+                            looking for a passionate developer to join your team or collaborate on a
+                            project,
+                            please feel
+                            free to reach out. I'm excited to discuss how I can contribute to your next
+                            endeavor.
+                        </p>
                 </div>
             </div>
         </div>
@@ -204,113 +208,113 @@
             <h2 class="typing">launges</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <h2 class="typing">forntEnd</h2>
-                    <ul class="list-inline ">
-                        <li class="list-group-item pe-5">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <h4>
-                                    <i class="fa-brands fa-js "></i>
-                                    javaScripte
-                                </h4>
-                                <div class="d-flex align-items-center ">
-                                    <h4 class="p-2 d-flex align-items-center">
-                                        96%
-                                    </h4>
-                                    <div id="border" class="d-flex align-items-center">
-                                        <div id="borderRange" style="width: 96px;">
+                    <h4 class="typing">forntEnd</h2>
+                        <ul class="list-inline ">
+                            <li class="list-group-item pe-5">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6>
+                                        <i class="fa-brands fa-js "></i>
+                                        javaScripte
+                                    </h6>
+                                    <div class="d-flex align-items-center ">
+                                        <h6 class="p-2 d-flex align-items-center">
+                                            96%
+                                        </h6>
+                                        <div id="border" class="d-flex align-items-center">
+                                            <div id="borderRange" style="width: 96px;">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item pe-5">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <h4>
-                                    <i class="fa-brands fa-html5 "></i>
-                                    html
-                                </h4>
-                                <div class="d-flex align-items-center ">
-                                    <h4 class="p-2 d-flex align-items-center">
-                                        99%
-                                    </h4>
-                                    <div id="border" class="d-flex align-items-center">
-                                        <div id="borderRange" style="width: 99px;">
+                            </li>
+                            <li class="list-group-item pe-5">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6>
+                                        <i class="fa-brands fa-html5 "></i>
+                                        html
+                                    </h6>
+                                    <div class="d-flex align-items-center ">
+                                        <h6 class="p-2 d-flex align-items-center">
+                                            99%
+                                        </h6>
+                                        <div id="border" class="d-flex align-items-center">
+                                            <div id="borderRange" style="width: 99px;">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item pe-5">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <h4>
-                                    <i class="fa-brands fa-css3-alt "></i>
-                                    css
-                                </h4>
-                                <div class="d-flex align-items-center ">
-                                    <h4 class="p-2 d-flex align-items-center">
-                                        95%
-                                    </h4>
-                                    <div id="border" class="d-flex align-items-center">
-                                        <div id="borderRange" style="width: 95px;">
+                            </li>
+                            <li class="list-group-item pe-5">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6>
+                                        <i class="fa-brands fa-css3-alt "></i>
+                                        css
+                                    </h6>
+                                    <div class="d-flex align-items-center ">
+                                        <h6 class="p-2 d-flex align-items-center">
+                                            95%
+                                        </h6>
+                                        <div id="border" class="d-flex align-items-center">
+                                            <div id="borderRange" style="width: 95px;">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="typing">frameworks</h2>
-                    <ul class="list-inline ">
-                        <li class="list-group-item pe-5">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <h4>
-                                    <i class="fa-brands fa-react "></i>
-                                    react
-                                </h4>
-                                <div class="d-flex align-items-center ">
-                                    <h4 class="p-2 d-flex align-items-center">
-                                        90%
-                                    </h4>
-                                    <div id="border" class="d-flex align-items-center">
-                                        <div id="borderRange" style="width: 90px;">
+                    <h4 class="typing">frameworks</h2>
+                        <ul class="list-inline ">
+                            <li class="list-group-item pe-5">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6>
+                                        <i class="fa-brands fa-react "></i>
+                                        react
+                                    </h6>
+                                    <div class="d-flex align-items-center ">
+                                        <h6 class="p-2 d-flex align-items-center">
+                                            90%
+                                        </h6>
+                                        <div id="border" class="d-flex align-items-center">
+                                            <div id="borderRange" style="width: 90px;">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item pe-5">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <h4>
-                                    <i class="fa-brands fa-laravel "></i>
-                                    laravel
-                                </h4>
-                                <div class="d-flex align-items-center ">
-                                    <h4 class="p-2 d-flex align-items-center">
-                                        85%
-                                    </h4>
-                                    <div id="border" class="d-flex align-items-center">
-                                        <div id="borderRange" style="width: 85px;">
+                            </li>
+                            <li class="list-group-item pe-5">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6>
+                                        <i class="fa-brands fa-laravel "></i>
+                                        laravel
+                                    </h6>
+                                    <div class="d-flex align-items-center ">
+                                        <h6 class="p-2 d-flex align-items-center">
+                                            85%
+                                        </h6>
+                                        <div id="border" class="d-flex align-items-center">
+                                            <div id="borderRange" style="width: 85px;">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
                 </div>
                 <div class="col-lg-6">
                     <h2 class="typing">backend</h2>
                     <ul class="list-inline ">
                         <li class="list-group-item pe-5">
                             <div class="d-flex align-items-center justify-content-between">
-                                <h4>
+                                <h6>
                                     <i class="fa-brands fa-php "></i>
                                     php
-                                </h4>
+                                </h6>
                                 <div class="d-flex">
-                                    <h4 class="p-2">
+                                    <h6 class="p-2">
                                         80%
-                                    </h4>
+                                    </h6>
                                     <div id="border">
                                         <div id="borderRange" style="width: 80px;">
                                         </div>
@@ -321,66 +325,73 @@
                     </ul>
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="typing">athers</h2>
-                    <ul class="list-inline ">
-                        <li class="list-group-item pe-5">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <h4>
-                                    <i class="fa-brands fa-python "></i>
-                                    python
-                                </h4>
-                                <div class="d-flex align-items-center ">
-                                    <h4 class="p-2 d-flex align-items-center">
-                                        75%
-                                    </h4>
-                                    <div id="border" class="d-flex align-items-center">
-                                        <div id="borderRange" style="width: 75px;">
+                    <h4 class="typing">athers</h2>
+                        <ul class="list-inline ">
+                            <li class="list-group-item pe-5">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6>
+                                        <i class="fa-brands fa-python "></i>
+                                        python
+                                    </h6>
+                                    <div class="d-flex align-items-center ">
+                                        <h6 class="p-2 d-flex align-items-center">
+                                            75%
+                                        </h6>
+                                        <div id="border" class="d-flex align-items-center">
+                                            <div id="borderRange" style="width: 75px;">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
                 </div>
             </div>
     </section>
     <section id="projects" class="py-5">
-        <div class="container">
-            <h2 class="text-center">projects</h2>
+        <div class="container ">
+            <h2 class="mb-5">projects</h2>
             <div class="row">
                 <div class="col-lg-4 justify-content-center">
                     <div class="card text-bg-dark mb-3 rounded-5 border-0 shadow-lg">
-                        <img src="./assite/culactiveblack.png" alt="Project 1"
-                            class="card-img-top bg-light rounded-5 floating">
+                        <img src="./assite/culactiveblack.png" height="300px" style="object-fit: cover;" alt="Project 1"
+                            class="card-img-top bg-dark rounded-5 floating">
                         <div class="card-body">
                             <h5 class="card-title">culactive</h5>
                             <p class="card-text">
-                                Welcome to my developer portfolio. I'm Ilias Aitouchen, a passionate
-                                full-stack developer
-                                with a strong background in web development. I'm committed to delivering efficient and
-                                maintainable code, and I thrive on problem-solving. My goal is to create innovative
-                                solutions
-                                and make ideas come to life.</p>
+                                It is a platform with many factories, shops, markets, warehouses and theater diversions.
+                                These factories give visitors access so that they can learn about the craft, service or
+                                product through a range of activities.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 justify-content-center">
                     <div class="card text-bg-dark mb-3 rounded-5 border-0 shadow-lg">
-                        <img src="./assite/culactiveblack.png" alt="Project 2"
-                            class="card-img-top bg-light rounded-5 floating ">
+                        <img src="./assite/GitIt.png" height="300px" style="object-fit: cover;" alt="Project 2"
+                            class="card-img-top bg-dark rounded-5 floating ">
                         <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">Description of project 2.</p>
+                            <h5 class="card-title">GitIt</h5>
+                            <p class="card-text">
+                                Creating a Facebook Marketplace-style e-commerce platform called
+                                "GitIt" would require significant development and design work. Below, I'll outline the
+                                key components and features you might consider when building such a platform
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 justify-content-center">
                     <div class="card text-bg-dark mb-3 rounded-5 border-0 shadow-lg">
-                        <img src="./assite/culactiveblack.png" alt="Project 3"
-                            class="card-img-top bg-light rounded-5 floating">
+                        <img src="./assite/menara.png" height="300px" style="object-fit: cover;" alt="Project 3"
+                            class="card-img-top bg-dark rounded-5 floating">
                         <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">Description of project 3.</p>
+                            <h5 class="card-title">menara</h5>
+                            <p class="card-text">
+                                system for the management of products and users is a critical
+                                component of various Such a system typically includes functionalities to organize,
+                                track, and maintain information about products and the
+                                users who interact with them.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -411,14 +422,14 @@
                     </ul>
                 </div>
                 <div class="col-lg-6">
-                    <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#contact"
                         data-bs-whatever="@mdo">Contact</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactLabel"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                                    <h1 class="modal-title fs-5" id="contactLabel">New message</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -429,15 +440,17 @@
                                         <input type="text" name="user_name" class="form-control">
                                         <label class="form-label">Email</label>
                                         <input type="email" name="user_email" class="form-control">
+                                        <label class="form-label">Object</label>
+                                        <input type="text" name="Object" class="form-control">
                                         <label class="form-label">Message</label>
                                         <textarea name="message" class="form-control"></textarea>
-                                        <input type="submit" class="btn border-5 text-white bg-black rounded-pill"
-                                            value="Send">
+                                        <div class="modal-footer">
+                                            <input type="submit" class="btn border-5 text-white bg-black rounded-pill"
+                                                value="Send">
+                                            <button type="button" class="btn border-5 text-white bg-black rounded-pill"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
                                     </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn border-5 text-white bg-black rounded-pill"
-                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -469,7 +482,6 @@
 
         }
         frameLooper();
-
         var names = ["i'm a full - stack developer", "i'm a forntend developer", "i'm a backend developer"]
         var i = 0;
         function frametitle() {
@@ -479,11 +491,30 @@
             document.getElementById("title").innerHTML = names[i];
             i++
             setTimeout('frametitle()', 2000); /* change 70 for speed */
-
         }
         frametitle()
-    </script>
+        // ---------download
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get a reference to the button element
+            const downloadButton = document.getElementById("downloadButton");
 
+            // Add a click event listener to the button
+            downloadButton.addEventListener("click", function () {
+                // Define the file URL you want to download
+                const fileUrl = "./assite/aitouchenIlias.pdf"; // Replace with the actual file URL
+
+                // Create an invisible anchor element to trigger the download
+                const link = document.createElement("a");
+                link.href = fileUrl;
+
+                // Specify the filename for the downloaded file
+                link.download = "aitouchenIlias.pdf"; // Replace with your desired file name
+
+                // Trigger a click event on the anchor element to initiate the download
+                link.click();
+            });
+        });
+    </script>
 </body>
 
 
