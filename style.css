@@ -1,18 +1,26 @@
 :root {
-    --main-bgcoloralph: hsla(229, 100%, 50%, 0.5);
+    --main-bgcoloralph: rgb(133, 255, 198);
     --main-bgcolor: rgb(255, 255, 255);
     --main-color: rgb(0, 0, 0);
+    --main-url: url(./assite/backgroundark5.jpg);
+}
+
+*::selection {
+    background: var(--main-bgcolor);
+    color: var(--main-bgcoloralph);
 }
 
 body {
     background: var(--main-bgcolor);
+    /* width: 100%; */
     color: var(--main-color);
+    box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Pacifico', cursive;
     font-family: 'Comfortaa', sans-serif;
     font-family: 'Exo 2', sans-serif;
     box-sizing: border-box;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #title {
@@ -119,7 +127,7 @@ button.navbar-toggler.btn {
 
 .personalIMg #cloude {
     position: absolute;
-    bottom: 10px;
+    bottom: -21px;
     left: -100px;
     width: 100px;
     font-size: 200px;
@@ -129,8 +137,8 @@ button.navbar-toggler.btn {
 
 .personalIMg #cloude2 {
     position: absolute;
-    bottom: 10px;
-    right: 40px;
+    bottom: -20px;
+    right: 50px;
     width: 100px;
     font-size: 200px;
     animation: float 6s ease-in-out infinite;
@@ -159,6 +167,7 @@ button.navbar-toggler.btn {
     fill: var(--main-color) !important;
     width: 10px;
 }
+
 .cls-2 {
     fill: var(--main-bgcolor) !important;
     width: 10px;
@@ -173,5 +182,5 @@ button.navbar-toggler.btn {
 
 
 section#info {
-    background: url(./assite/backgroundark5.jpg);
+    background: var(--main-url);
 }
