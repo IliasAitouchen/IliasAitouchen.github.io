@@ -148,18 +148,17 @@ button.navbar-toggler.btn {
 #border {
     height: 25px;
     width: 100px;
-    background: var(--main-bgcoloralph);
-    border-radius: 8px;
     z-index: 100;
-    box-shadow: 0px 0px 0px 0px var(--main-bgcolor);
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--main-bgcoloralph);
 }
 
 #borderRange {
-    z-index: 1000;
-    height: 25px;
     width: 90px;
+    height: 25px;
+    z-index: 1000;
     background: var(--main-color);
-    border-radius: 8px;
     animation: start 500ms ease-in-out 1;
 }
 
@@ -173,11 +172,17 @@ button.navbar-toggler.btn {
     width: 10px;
 }
 
-.col-lg-5.p-lg-2.m-lg-3.p-2.mt-2 {
+.col-lg-5.p-lg-3.m-lg-3.p-3.mt-2 {
     background: radial-gradient(#ffffff00, rgb(255 255 255 / 10%));
     backdrop-filter: blur(60px);
     border-radius: 15px;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card.text-bg-dark.mb-3.rounded-5.border-0.shadow-lg.floating {
+    backdrop-filter: blur(60px) !important;
+    border-radius: 15px !important;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5) !important;
 }
 
 
