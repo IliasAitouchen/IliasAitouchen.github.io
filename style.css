@@ -1,5 +1,5 @@
 :root {
-    --main-bgcoloralph: rgb(207, 255, 198);
+    --main-bgcoloralph: rgb(204, 198, 255);
     --main-bgcolor: rgb(255, 255, 255);
     --main-color: rgb(0, 0, 0);
     --main-url: url(./assite/backgroundark5.jpg);
@@ -256,7 +256,9 @@ footer.bg-dark.py-2.rounded-4 p {
     background: var(--main-bgcolor) !important;
     color: var(--main-color) !important;
 }
-footer.bg-dark.py-2.rounded-4 li a,footer.bg-dark.py-2.rounded-4 li{
+
+footer.bg-dark.py-2.rounded-4 li a,
+footer.bg-dark.py-2.rounded-4 li {
     background: var(--main-bgcolor) !important;
     color: var(--main-color) !important;
 }
