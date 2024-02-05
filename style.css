@@ -1,5 +1,5 @@
 :root {
-    --main-bgcoloralph: rgb(0, 0, 0);
+    --main-bgcoloralph: rgb(207, 255, 198);
     --main-bgcolor: rgb(255, 255, 255);
     --main-color: rgb(0, 0, 0);
     --main-url: url(./assite/backgroundark5.jpg);
@@ -235,4 +235,28 @@ section#info {
     padding: 20px;
     box-shadow: 10px 10px 0px 0px;
     transition: 1s all;
+}
+
+
+footer.bg-dark.py-2.rounded-4 {
+    width: 40px;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 20px;
+    box-shadow: 10px 10px 0px 0px;
+    border: 2px solid;
+    background: var(--main-bgcolor) !important;
+    color: var(--main-color) !important;
+}
+
+footer.bg-dark.py-2.rounded-4 p {
+    writing-mode: vertical-rl;
+    margin: 15px -5px;
+    background: var(--main-bgcolor) !important;
+    color: var(--main-color) !important;
+}
+footer.bg-dark.py-2.rounded-4 li a,footer.bg-dark.py-2.rounded-4 li{
+    background: var(--main-bgcolor) !important;
+    color: var(--main-color) !important;
 }

@@ -3,13 +3,13 @@ var mode = document.getElementById('color_mode');
 mode.onclick = function () {
     if (mode.innerText == "light_mode") {
         mode.innerText = "dark_mode";
-        $(":root").css('--main-bgcoloralph', "rgb(0, 0, 0)")
+        $(":root").css('--main-bgcoloralph', "rgb(204, 198, 255)")
         $(":root").css('--main-bgcolor', "rgb(0, 0, 0)")
         $(":root").css("--main-color", "rgb(255, 255, 255)")
         $(":root").css("--main-url", "url(./assite/backgroundark.jpg)")
     } else if (mode.innerText == "dark_mode") {
         mode.innerText = "light_mode";
-        $(":root").css('--main-bgcoloralph', "rgb(0, 0, 0)")
+        $(":root").css('--main-bgcoloralph', "rgb(204, 198, 255)")
         $(":root").css('--main-bgcolor', "rgb(255, 255, 255)")
         $(":root").css("--main-color", "rgb(0, 0, 0)")
         $(":root").css("--main-url", "url(./assite/backgroundark5.jpg)")
