@@ -206,7 +206,7 @@ button.navbar-toggler.btn {
 .card.text-bg-dark.mb-3.rounded-5.border-0.shadow-lg.floating {
     backdrop-filter: blur(60px) !important;
     border-radius: 15px !important;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 20px 20px 0px 0px var(--main-color) !important;
 }
 
 
@@ -261,4 +261,33 @@ footer.bg-dark.py-2.rounded-4 li a,
 footer.bg-dark.py-2.rounded-4 li {
     background: var(--main-bgcolor) !important;
     color: var(--main-color) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    footer.bg-dark.py-2.rounded-4 {
+        width: auto;
+        display: block;
+        position: unset;
+        left: 0;
+        top: 0;
+        margin-top: 122px;
+        margin-inline: 35px;
+    }
+
+    footer.bg-dark.py-2.rounded-4 p {
+        writing-mode: unset;
+        margin: 15px -5px;
+        background: var(--main-bgcolor) !important;
+        color: var(--main-color) !important;
+    }
+
+    footer.bg-dark ul.list-unstyled.social-icons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .col-lg-4.text-black {
+        display: flex;
+        justify-content: center;
+    }
 }
